@@ -26,7 +26,7 @@ function CoinFlip() {
         if(e.target.id === 'Heads') newStatus.checked = 2;
         else newStatus.checked = 1;
 
-        // setStatus(newStatus);
+        // setStatus(newStatus);!!
         console.log(status.checked)
     }
 
