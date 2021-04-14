@@ -1,0 +1,11 @@
+.custom-align-center {
+    text-align: center;
+    font-size: large;
+}
+
+.img-coin {
+    cursor: pointer;
+    height:25%;
+    width:25%;
+    margin: 5px 40px 20px 10px; /* TOP RIGHT LEFT BOTTOM */
+}
