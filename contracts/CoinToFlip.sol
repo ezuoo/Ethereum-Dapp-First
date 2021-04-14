@@ -44,7 +44,6 @@ contract CoinToFlip {
         _;
     }
 
-
     // Funds withdrawal to maintain the house
     function withdrawFunds(address payable beneficiary, uint withdrawAmount) external onlyOwner {
         require (withdrawAmount + lockedInBets <= address(this).balance, "larger than balance.");
